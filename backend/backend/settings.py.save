@@ -121,7 +121,7 @@ CORS_ORIGIN_WHITELIST = [
 # Settings → Projects → <ваш-проект> → Client Keys (DSN).
 sentry_sdk.init(
         # В этой переменной будет значение для вашего проекта.
-    dsn="https://ffaaa1e0c2f54b19861b3fd521b31156@o4505324183617536.ingest.sentry.io/4505324192792576",
+    dsn="",
     integrations=[
         DjangoIntegration(),
     ],
